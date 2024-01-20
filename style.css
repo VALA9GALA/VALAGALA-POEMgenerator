@@ -112,10 +112,10 @@ footer {
 
 @media (max-width: 800px) {
   body {
-    overflow-x: hidden;
+    overflow: hidden;
   }
   h1 {
-    font-size: 50px;
+    width: 100%;
   }
   .submit-btn {
     width: 30%;
