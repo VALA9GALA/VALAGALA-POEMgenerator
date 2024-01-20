@@ -28,46 +28,56 @@ body {
     #a65085;
   background-size: calc(300px / 4.667) 300px, 300px calc(300px / 4.667);
 
-  margin: 0 auto;
+  margin: 60px auto;
   font-family: monospace;
 }
 
 h1 {
   font-family: Warnes;
   text-align: center;
-  font-size: 60px;
-  letter-spacing: 22px;
+  font-size: 80px;
+  letter-spacing: 40px;
   line-height: 1.5;
+  color: #21213e;
+  opacity: 0.8;
+  margin: 0;
 }
 h2 {
+  color: #70365a;
+  text-shadow: 2px 4px #21213e;
   font-family: Warnes;
   margin: 10px;
+  letter-spacing: 4px;
 }
 .container {
-  margin: 80px auto;
+  margin: 60px auto;
   max-width: 500px;
-  border: 4px solid darkslateblue;
-  border-radius: 22px;
+  /*border: 4px solid darkslateblue;
+  border-radius: 22px;*/
+  border-left: 4px solid darkslateblue;
+  border-top: 4px solid darkslateblue;
   background: #7678ba;
-  padding: 30px;
+  padding: 30px 15px;
+  box-shadow: 6px 8px #0d0e36;
 }
 form {
   display: flex;
   justify-content: center;
 }
 .prompt-field {
+  font-size: 16px;
   border-radius: 11px;
   padding: 10px;
   font-family: monospace;
   width: 50%;
-  background-color: aliceblue;
+  background-color: thistle;
   border: 2px solid darkslateblue;
 }
 .submit-btn {
   font-family: monospace;
   letter-spacing: 3px;
   font-size: 16px;
-  padding: 2px 36px;
+  padding: 2px 30px;
   margin-left: 10px;
   border: 2px solid darkslateblue;
   background-color: rgb(185, 253, 117);
@@ -82,6 +92,8 @@ form {
   display: block;
   margin: 0 auto;
   width: 80%;
+  color: rgba(33, 33, 62, 0.8);
+
   background-color: aliceblue;
   font-size: 16px;
   line-height: 1.5;
@@ -95,8 +107,9 @@ a {
 footer {
   font-size: 14px;
   letter-spacing: 3px;
-  margin-top: -80px;
+  margin-top: -40px;
   text-align: center;
+  color: #21213e;
 }
 
 @media (max-width: 800px) {
