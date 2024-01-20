@@ -3,32 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Warnes&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>POEMS</title>
   </head>
   <body>
     <header>
-      <h1>\/\_/\GALA POEM bot</h1>
+      <h1>POEM bot</h1>
     </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          autofocus
-          required
-          autocomplete="off"
-          placeholder="Enter a topic for a poem..."
-        />
-        <input type="submit" />
-      </form>
-      <br />
-      <div class="poem-box">
-        That should I after return,
+    <div class="container">
+      <main>
+        <h2>VALAGALA cmd</h2>
+        <form action="">
+          <input
+            type="text"
+            autofocus
+            required
+            autocomplete="off"
+            placeholder="Enter a topic..."
+            class="prompt-field"
+          />
+          <input type="submit" class="submit-btn" />
+        </form>
         <br />
-        Or, long, long hence, in other spheres,
-      </div>
-    </main>
-    <br />
+        <p class="poem-box">
+          That should I after return,
+          <br />
+          Or, long, long hence, in other spheres,
+        </p>
+      </main>
+    </div>
     <footer>
       Coded by
       <a
@@ -38,6 +47,7 @@
         >VALAGALA</a
       >
     </footer>
+
     <script src="index.js"></script>
   </body>
 </html>
