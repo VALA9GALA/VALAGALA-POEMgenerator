@@ -115,6 +115,7 @@ footer {
     overflow-x: wrap;
   }
   h1 {
+    letter-spacing: 12px;
     font-size: 50px;
   }
   .submit-btn {
