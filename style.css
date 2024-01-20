@@ -114,6 +114,9 @@ footer {
   body {
     overflow-x: hidden;
   }
+  h1 {
+    font-size: 50px;
+  }
   .submit-btn {
     width: 30%;
     padding: 6px;
