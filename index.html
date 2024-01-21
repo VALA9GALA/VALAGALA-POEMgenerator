@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,7 +25,7 @@
     <div class="container">
       <main>
         <h2 class="cmd">VALAGALA cmd</h2>
-        <form action="">
+        <form id="bot-poet-form">
           <input
             type="text"
             autofocus
@@ -36,11 +37,7 @@
           <input type="submit" class="submit-btn" />
         </form>
         <br />
-        <p class="poem-box">
-          That should I after return,
-          <br />
-          Or, long, long hence, in other spheres,
-        </p>
+        <p class="poem-box" id="poem"></p>
       </main>
     </div>
     <footer>
