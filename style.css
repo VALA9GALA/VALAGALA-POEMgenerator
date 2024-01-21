@@ -99,6 +99,9 @@ form {
   box-shadow: 4px 6px;
   padding: 10px;
 }
+.poem-box strong {
+  color: #70365a;
+}
 a {
   color: rgb(185, 253, 117);
   opacity: 0.8;
