@@ -102,6 +102,23 @@ form {
 .poem-box strong {
   color: #70365a;
 }
+.hidden {
+  display: none;
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
 a {
   color: rgb(185, 253, 117);
   opacity: 0.8;
