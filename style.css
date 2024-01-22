@@ -81,7 +81,7 @@ form {
 }
 .submit-btn {
   font-family: monospace;
-  letter-spacing: 6px;
+  letter-spacing: 3px;
   font-size: 16px;
   padding: 0px 20px;
   margin-left: 10px;
@@ -154,6 +154,10 @@ footer {
   .submit-btn {
     width: 30%;
     padding: 6px;
+  }
+  small {
+    font-size: 9px;
+    margin-left: 10px;
   }
   .container {
     width: 80%;
