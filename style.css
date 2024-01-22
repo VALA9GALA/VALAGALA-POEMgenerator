@@ -65,21 +65,28 @@ form {
   justify-content: center;
 }
 .prompt-field {
+  color: rgb(49, 42, 95);
   font-size: 16px;
-  border-radius: 11px;
+  border-radius: 14px;
   padding: 10px;
   font-family: monospace;
   width: 50%;
   background-color: thistle;
-  border: 2px solid darkslateblue;
+  border: 3px solid darkslateblue;
+}
+.prompt-field:focus {
+  outline: none;
+  border: dashed darkslateblue;
+  border-width: 3px 5px;
 }
 .submit-btn {
   font-family: monospace;
-  letter-spacing: 3px;
+  letter-spacing: 6px;
   font-size: 16px;
-  padding: 2px 30px;
+  padding: 2px 20px;
   margin-left: 10px;
-  border: 2px solid darkslateblue;
+  border: 3px solid darkslateblue;
+ 
   background-color: rgb(185, 253, 117);
   color: darkslateblue;
 }
