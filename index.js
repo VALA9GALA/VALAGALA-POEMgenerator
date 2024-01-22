@@ -13,16 +13,10 @@ function generatePoem(event) {
   poemId.classList.remove("hidden");
   poemId.innerHTML = `<div class="blink">Writing a poem about ${userInput.value}⏳</div>`;
 
-  console.log("Generating a poem");
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Context: ${context}`);
-
   axios.get(apiUrl).then(displayPoem);
 }
 
 function displayPoem(response) {
-  console.log("poem generated");
-
   new Typewriter("#poem", {
     strings: response.data.answer,
     delay: 80,
