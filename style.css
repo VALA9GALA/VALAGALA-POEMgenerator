@@ -37,8 +37,8 @@ h1 {
   font-size: 80px;
   letter-spacing: 40px;
   line-height: 1.5;
-  color: #21213e;
-  opacity: 0.8;
+  color: rgba(185, 253, 117, 0.9);
+  text-shadow: 6px 6px rgba(33, 33, 62, 0.8);
   margin: 0;
 }
 
