@@ -27,6 +27,7 @@ body {
     ),
     #a65085;
   background-size: calc(300px / 4.667) 300px, 300px calc(300px / 4.667);
+  background-attachment: fixed;
   margin: 60px auto;
   font-family: monospace;
 }
